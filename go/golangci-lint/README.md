@@ -42,11 +42,7 @@ func foo() {
 ```yaml
 linters-settings:
   errcheck:
-<<<<<<< HEAD
 	# 检查类型断言
-=======
-    # 检查类型断言
->>>>>>> 9ab21a59149a7c55817176b39e1784edc4c9673b
     check-type-assertions: true
     # 检查使用 _ 来处理错误
     check-blank: true
