@@ -42,7 +42,11 @@ func foo() {
 ```yaml
 linters-settings:
   errcheck:
+<<<<<<< HEAD
 	# 检查类型断言
+=======
+    # 检查类型断言
+>>>>>>> 9ab21a59149a7c55817176b39e1784edc4c9673b
     check-type-assertions: true
     # 检查使用 _ 来处理错误
     check-blank: true
@@ -248,6 +252,7 @@ main.go:9:23: response body must be closed (bodyclose)
 检查代码的圈复杂度，cyclomatic complexity 是衡量代码复杂度的一种指标，值越高意味着代码复杂度越高，代码越难维护，bug 也可能更多。具体计算如下：
 
 >  1 is the base complexity of a function
+>  
 >  +1 for each 'if', 'for', 'case', '&&' or '||'
 
 默认值是 10，不过一般业务代码稍微写着写着就超了，可以修改[配置文件](https://golangci-lint.run/usage/linters/#cyclop)适当增大。
