@@ -29,7 +29,7 @@
 
 ## 下载
 
-下载地址及使用文档移步 https://github.com/YahuiAn/marker，如果有帮助到你，不妨点个 Star 鼓励我一下，感谢~
+下载地址及使用文档移步 [githu/marker](https://github.com/YahuiAn/marker)，如果有帮助到你，不妨点个 Star 鼓励我一下，感谢~
 
 使用有任何问题欢迎提 issue。
 
